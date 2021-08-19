@@ -1,0 +1,50 @@
+<div class="container"> 
+    <hr>
+          <div class="row">
+            <div class="col">
+
+                <div class="card  border-white " >
+                    <img class="mx-auto d-block" src="../../../assets/ImagenesPublicas/5568.jpg"  alt="href='https://www.freepik.es/vectores/corazon'>Vector de Corazón creado por pch.vector - www.freepik.es" width="100%">
+                </div>
+  
+            </div>
+            <div class="col">
+                <div class="card  border-white "  >
+                    <p class="lead"><em>Crea una cuenta.</em></p>
+                    <hr>
+                    <form>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <input  type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="newUser.name" placeholder="Nombres" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="newUser.lastname" placeholder="Apellidos" name="lastname" required> 
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="newUser.email" placeholder="Correo electronico" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Telefono" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" [(ngModel)]="newUser.password" placeholder="Contraseña" name="pass" required>
+                        </div>
+                        
+                        <div class="col d-grid gap-2 mx-auto">
+                            <button class="btn btn-success" (click)="Register()" >Crear</button>
+                          </div>
+                       <hr>
+
+                        <div class="col d-grid gap-2 mx-auto">
+                            <button type="button" class="btn btn-success">Registrarse con Facebook.</button>
+                          </div>
+                    </div>
+                    </form> 
+                  </div>
+            </div> 
+        </div>
+    <hr>
+    </div>
+
+
+    
